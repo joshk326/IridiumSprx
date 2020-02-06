@@ -1,0 +1,290 @@
+﻿     0>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.Redirect.10.props(23,3): warning MSB4011: "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\PS3\Microsoft.Cpp.PS3.default.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Default.props (105,3)". This is most likely a build authoring error. This subsequent import will be ignored. [C:\Users\Josh\Documents\Visual Studio 2010\Projects\PS3_PPU_Project1\PS3_PPU_Project1\PS3_PPU_Project1.vcxproj]
+Build started 8/10/2016 9:20:28 PM.
+     1>Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\PS3_PPU_Project1\PS3_PPU_Project1\PS3_PPU_Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         script.cpp
+         ps3ppusnc.exe -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -DLIBNAME=cellPrx_Iridium -DSTUBNAME=cellPrx_Iridium_stub -o PS3_Debug\script.o -c -Xmserrors -Xdepmode=1 -MD -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -g -O0 -Xc-=rtti script.cpp
+     1>Dialog.h(73,6): warning 178: variable "ret" was declared but never referenced
+         
+     1>Dialog.h(192,6): warning 178: variable "ret" was declared but never referenced
+         
+     1>Dialog.h(234,6): warning 552: variable "ret" was set but never used
+         
+     1>Sockets.h(61,2): warning 112: statement is unreachable
+         
+     1>Sockets.h(64): warning 942: missing return statement at end of non-void function "SocketRequest"
+         
+     1>Sockets.h(122,7): warning 118: non-void function "GetKey" should return a value
+         
+     1>Natives.h(2653,109): warning 552: variable "arr" was set but never used
+         
+     1>Natives.h(4909,73): warning 942: missing return statement at end of non-void function "_0xF8D7AF3B"
+         
+     1>Natives.h(5426,98): warning 942: missing return statement at end of non-void function "_unk_0x8866D9D0"
+         
+     1>script.cpp(106): warning 942: missing return statement at end of non-void function "write_process"
+         
+     1>script.cpp(125,15): warning 1067: conversion from integer to smaller pointer
+         
+     1>script.cpp(179): warning 942: missing return statement at end of non-void function "NativeToAddress"
+         
+     1>script.cpp(446,36): warning 112: statement is unreachable
+         
+     1>script.cpp(449,1): warning 942: missing return statement at end of non-void function "<unnamed>::SetTunable"
+         
+     1>script.cpp(455,123): warning 112: statement is unreachable
+         
+     1>script.cpp(458,1): warning 942: missing return statement at end of non-void function "<unnamed>::SetGlobal"
+         
+     1>script.cpp(866,8): warning 178: variable "street" was declared but never referenced
+         
+     1>script.cpp(1792,8): warning 178: variable "p" was declared but never referenced
+         
+     1>script.cpp(1810,1): warning 942: missing return statement at end of non-void function "<unnamed>::ObjectForOnlinePlayer"
+         
+     1>script.cpp(2536,51): warning 551: variable "Position" is used before its value is set
+         
+     1>script.cpp(2552,20): warning 68: integer conversion resulted in a change of sign
+         
+     1>script.cpp(2761,7): warning 178: variable "empty" was declared but never referenced
+         
+     1>script.cpp(2857,7): warning 178: variable "supers_plus" was declared but never referenced
+         
+     1>script.cpp(2857,24): warning 178: variable "supers_minus" was declared but never referenced
+         
+     1>script.cpp(2857,42): warning 178: variable "sports_plus" was declared but never referenced
+         
+     1>script.cpp(2857,59): warning 178: variable "sports_minus" was declared but never referenced
+         
+     1>script.cpp(3112,7): warning 237: controlling expression is constant
+         
+     1>script.cpp(3123,7): warning 237: controlling expression is constant
+         
+     1>script.cpp(3256,7): warning 178: variable "model" was declared but never referenced
+         
+     1>script.cpp(3275,23): warning 178: variable "Weedgun" was declared but never referenced
+         
+     1>script.cpp(3324,7): warning 178: variable "networkKickPlayer" was declared but never referenced
+         
+     1>script.cpp(3364,7): warning 178: variable "repair" was declared but never referenced
+         
+     1>script.cpp(3391,7): warning 178: variable "teleportIntoSeat" was declared but never referenced
+         
+     1>script.cpp(3422,7): warning 178: variable "attachtoPlayer" was declared but never referenced
+         
+     1>script.cpp(3422,27): warning 178: variable "attachtoVehicle" was declared but never referenced
+         
+     1>script.cpp(3565,30): warning 1772: argument of type "float" is implicitly converted to parameter (1 of NETWORK_EARN_FROM_ROCKSTAR) of type "int"
+         
+     1>script.cpp(3571,30): warning 1772: argument of type "float" is implicitly converted to parameter (1 of NETWORK_EARN_FROM_ROCKSTAR) of type "int"
+         
+     1>script.cpp(3596,13): warning 175: expression has no effect
+         
+     1>script.cpp(3624,48): warning 178: variable "explode" was declared but never referenced
+         
+     1>script.cpp(3708,21): warning 551: variable "type" is used before its value is set
+         
+     1>script.cpp(3709,24): warning 551: variable "texture" is used before its value is set
+         
+     1>script.cpp(3714,81): warning 1772: argument of type "float" is implicitly converted to parameter (2 of changeAppearance) of type "int"
+         
+     1>script.cpp(3714,87): warning 1772: argument of type "float" is implicitly converted to parameter (3 of changeAppearance) of type "int"
+         
+     1>script.cpp(3720,81): warning 1772: argument of type "float" is implicitly converted to parameter (2 of changeAppearance) of type "int"
+         
+     1>script.cpp(3720,87): warning 1772: argument of type "float" is implicitly converted to parameter (3 of changeAppearance) of type "int"
+         
+     1>script.cpp(3726,81): warning 1772: argument of type "float" is implicitly converted to parameter (2 of changeAppearance) of type "int"
+         
+     1>script.cpp(3726,87): warning 1772: argument of type "float" is implicitly converted to parameter (3 of changeAppearance) of type "int"
+         
+     1>script.cpp(3732,81): warning 1772: argument of type "float" is implicitly converted to parameter (2 of changeAppearance) of type "int"
+         
+     1>script.cpp(3732,87): warning 1772: argument of type "float" is implicitly converted to parameter (3 of changeAppearance) of type "int"
+         
+     1>script.cpp(3827,80): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3827,90): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3827,100): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3833,80): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3833,90): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3833,100): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3844,80): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3844,90): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3844,100): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3850,80): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3850,90): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3850,100): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3861,80): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3861,90): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3861,100): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3867,80): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3867,90): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3867,100): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_PRIMARY_COLOUR) of type "int"
+         
+     1>script.cpp(3886,82): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3886,94): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3886,106): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3892,82): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3892,94): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3892,106): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3903,82): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3903,94): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3903,106): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3909,82): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3909,94): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3909,106): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3920,82): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3920,94): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3920,106): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3926,82): warning 1772: argument of type "float" is implicitly converted to parameter (2 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3926,94): warning 1772: argument of type "float" is implicitly converted to parameter (3 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3926,106): warning 1772: argument of type "float" is implicitly converted to parameter (4 of SET_VEHICLE_CUSTOM_SECONDARY_COLOUR) of type "int"
+         
+     1>script.cpp(3989,6): warning 552: variable "OnlinePlyr" was set but never used
+         
+     1>script.cpp(4142,7): warning 178: variable "PedModelName" was declared but never referenced
+         
+     1>script.cpp(4306,63): warning 551: variable "v1" is used before its value is set
+         
+     1>script.cpp(4300,11): warning 178: variable "v0" was declared but never referenced
+         
+     1>script.cpp(4385,3): warning 548: transfer of control bypasses initialization of:
+                     variable "tempHash" (declared at line 4389)
+         
+     1>script.cpp(4521,9): warning 552: variable "f1" was set but never used
+         
+     1>script.cpp(4591,6): warning 178: variable "convertedspeed" was declared but never referenced
+         
+     1>script.cpp(4809,43): warning 551: variable "Pos" is used before its value is set
+         
+     1>script.cpp(4803,8): warning 178: variable "Loc" was declared but never referenced
+         
+     1>script.cpp(4819,20): warning 551: variable "waterobj" is used before its value is set
+         
+     1>script.cpp(4836,6): warning 178: variable "modleHash" was declared but never referenced
+         
+     1>script.cpp(4857,7): warning 178: variable "group" was declared but never referenced
+         
+     1>script.cpp(242,7): warning 178: variable "<unnamed>::NewsbarX" was declared but never referenced
+         
+     1>script.cpp(243,6): warning 178: variable "<unnamed>::controllerinput_bool" was declared but never referenced
+         
+     1>script.cpp(260,7): warning 178: variable "<unnamed>::primary_rgb" was declared but never referenced
+         
+     1>script.cpp(269,121): warning 552: variable "<unnamed>::vehiclespawnerActiveLineIndex" was set but never used
+         
+     1>script.cpp(269,152): warning 178: variable "<unnamed>::objectspawnerActiveLineIndex" was declared but never referenced
+         
+     1>script.cpp(269,182): warning 178: variable "<unnamed>::animationActiveLineIndex" was declared but never referenced
+         
+     1>script.cpp(272,308): warning 178: variable "<unnamed>::animationBaseIndex" was declared but never referenced
+         
+     1>script.cpp(275,112): warning 178: variable "<unnamed>::methodsTypeIndex" was declared but never referenced
+         
+     1>script.cpp(277,28): warning 178: variable "<unnamed>::onlineAnimeDuriation" was declared but never referenced
+         
+     1>script.cpp(277,104): warning 178: variable "<unnamed>::fly_rotation" was declared but never referenced
+         
+     1>script.cpp(281,65): warning 178: variable "<unnamed>::NewsBarBool" was declared but never referenced
+         
+     1>script.cpp(281,110): warning 178: variable "<unnamed>::SpawnObject" was declared but never referenced
+         
+     1>script.cpp(281,150): warning 178: variable "<unnamed>::featureMakeExplodeAll" was declared but never referenced
+         
+     1>script.cpp(281,177): warning 178: variable "<unnamed>::Rape" was declared but never referenced
+         
+     1>script.cpp(282,109): warning 178: variable "<unnamed>::weedgun1" was declared but never referenced
+         
+     1>script.cpp(285,62): warning 178: variable "<unnamed>::featureCustomObjectSpawner" was declared but never referenced
+         
+     1>script.cpp(288,16): warning 178: variable "<unnamed>::cam_gta2" was declared but never referenced
+         
+     1>script.cpp(290,8): warning 178: variable "<unnamed>::emptySlot" was declared but never referenced
+         
+     1>script.cpp(291,40): warning 178: variable "<unnamed>::hash_obj" was declared but never referenced
+         
+     1>script.cpp(292,95): warning 178: variable "<unnamed>::waitTimeinstructions" was declared but never referenced
+         
+     1>script.cpp(293,24): warning 178: variable "<unnamed>::featureExplodeClientCount" was declared but never referenced
+         
+     1>script.cpp(326,6): warning 178: function "<unnamed>::Check_self_in_vehicle" was declared but never referenced
+         
+     1>script.cpp(330,5): warning 178: function "<unnamed>::FindFreeCarSeat" was declared but never referenced
+         
+     1>script.cpp(343,6): warning 178: function "<unnamed>::offset_from_entity" was declared but never referenced
+         
+     1>script.cpp(354,6): warning 178: function "<unnamed>::RequestControlOfid" was declared but never referenced
+         
+     1>script.cpp(430,6): warning 178: function "<unnamed>::RandomAppearance" was declared but never referenced
+         
+     1>script.cpp(450,5): warning 178: function "<unnamed>::SetGlobal" was declared but never referenced
+         
+     1>script.cpp(476,6): warning 178: function "<unnamed>::drawinteger" was declared but never referenced
+         
+     1>script.cpp(508,7): warning 178: function "<unnamed>::AddInt_S" was declared but never referenced
+         
+     1>script.cpp(525,7): warning 178: function "<unnamed>::func_444" was declared but never referenced
+         
+     1>script.cpp(595,7): warning 178: function "<unnamed>::getHostName" was declared but never referenced
+         
+     1>script.cpp(599,6): warning 178: function "<unnamed>::isHost" was declared but never referenced
+         
+     1>script.cpp(656,6): warning 178: function "<unnamed>::_STAT_SET_BOOL" was declared but never referenced
+         
+     1>script.cpp(667,6): warning 178: function "<unnamed>::_STAT_SET_FLOAT" was declared but never referenced
+         
+     1>script.cpp(692,6): warning 178: function "<unnamed>::FloatingHelpText1" was declared but never referenced
+         
+     1>script.cpp(706,6): warning 178: function "<unnamed>::ShowSubtitleFloat" was declared but never referenced
+         
+     1>script.cpp(1574,8): warning 178: variable "<unnamed>::grav_partfx" was declared but never referenced
+         
+     1>script.cpp(1574,65): warning 178: variable "<unnamed>::grav_toggled" was declared but never referenced
+         
+     1>script.cpp(2092,6): warning 178: function "<unnamed>::WeaponSkins" was declared but never referenced
+         
+     1>script.cpp(2566,6): warning 178: function "<unnamed>::AimbotLoop" was declared but never referenced
+         
+       Link:
+         C:\usr\local\cell\host-win32\sn\bin\ps3ppuld32.exe -oformat=prx -o "C:\Users\Josh\Documents\Visual Studio 2010\Projects\PS3_PPU_Project1\PS3_Debug\GTA.prx" -L"C:/usr/local/cell\host-win32\lib\prx\ldscripts" -s -strip-unused-data --start-group PS3_Debug\printf.o PS3_Debug\script.o C:/usr/local/cell\target\ppu\lib\libc.a C:/usr/local/cell\target\ppu\lib\libc_stub.a "C:\Program Files (x86)\SN Systems\PS3\ppu\lib\sn\libsn.a" C:/usr/local/cell\target\ppu\lib\libm.a C:/usr/local/cell\target\ppu\lib\libio_stub.a C:/usr/local/cell\target\ppu\lib\libsysutil_stub.a C:/usr/local/cell\target\ppu\lib\libsysmodule_stub.a C:/usr/local/cell\target\ppu\lib\libsyscall.a C:/usr/local/cell\target\ppu\lib\libgcm_sys_stub.a "C:/usr/local/cell\host-win32\spu\lib\gcc\spu-lv2\4.1.1\libgcc.a" libsn.a libm.a libio_stub.a libfs_stub.a --end-group
+         PS3_PPU_Project1.vcxproj -> C:\Users\Josh\Documents\Visual Studio 2010\Projects\PS3_PPU_Project1\PS3_Debug\GTA.prx
+         Cannot find the expected PRX Stub Library file: cellPrx_Iridium_stub.a
+     1>Done Building Project "C:\Users\Josh\Documents\Visual Studio 2010\Projects\PS3_PPU_Project1\PS3_PPU_Project1\PS3_PPU_Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.25
